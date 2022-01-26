@@ -176,6 +176,7 @@ ul li a:hover {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  height: auto;
 }
 
 .store{
@@ -184,6 +185,7 @@ ul li a:hover {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  height: auto;
 }
 
 .caption{
@@ -204,9 +206,22 @@ ul li a:hover {
     height: 30vh;
   }
 
+  .nav{
+    margin-bottom: 0;
+  }
+
   ul li a{
     font-size: 11pt;
     padding: 0 10px;
+  }
+
+  .logoImg{
+
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -245,6 +260,12 @@ ul li a:hover {
 @media only screen and (max-width: 768px) {
   .caption{
     font-size: 14pt;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .caption{
+    font-size: 8pt;
   }
 }
 
