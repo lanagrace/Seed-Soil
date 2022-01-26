@@ -242,6 +242,12 @@ ul li a:hover {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .caption{
+    font-size: 14pt;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .name{
@@ -257,6 +263,8 @@ ul li a:hover {
     font-size: 14pt;
     padding: 0 10px;
   }
+
+  
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
